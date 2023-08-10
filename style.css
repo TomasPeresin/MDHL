@@ -1,0 +1,15 @@
+.active-page{
+    color: black; 
+    text-decoration: none; 
+    pointer-events: none;
+}
+
+a{
+    color: blue; 
+    text-decoration: underline;
+}
+
+figure{
+    display: flex; 
+    align-items: flex-start;
+}
