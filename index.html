@@ -4,36 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDHL Home</title>
-    <link rel="stylesheet" href="style-one.css">
-    <!-- <link rel="stylesheet" href="style-two.css"> -->
+    <!-- <link rel="stylesheet" href="style-one.css"> -->
+    <link rel="stylesheet" href="style-two.css">
     <!-- <link rel="stylesheet" href="style-three.css"> -->
 </head>
 <body>
+<div id="bod">
     <header>
-        <figure>
             <div>
                 <h1>
                     Mighty Ducks Hockey League
                 </h1>
                 <img src="assets/design1.jpg" width="768" height="300" alt="wallpaper">
-                <div class="zone">
-                    <h3>
-                        Upcoming Events
-                    </h3>
-                    <img src="assets/Logo.png" alt="Logo" class="logo" width="70px">
-                </div>
             </div>
-        </figure>
     </header>
-    <div id="con">
-        <div>
-            <nav>
-                <a href="#" class="active-page">Home</a>
-                <a href="about.html">About MDHL</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-        <div>
+    <div class="zone">
+        <h3>
+            Upcoming Events
+        </h3>
+        <img src="assets/Logo.png" alt="Logo" class="logo" width="70px">
+        <nav>
+            <a href="#" class="active-page">Home</a>
+            <a href="about.html">About MDHL</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div id="cuerpo">
             <dl>
                 <dt>August 4</dt>
                 <dd>MDSL Fundraiser</dd>
@@ -48,5 +43,25 @@
             </dl>
         </div>
     </div>
+</div>
 </body>
 </html>
+
+
+
+<!--    Display
+    display es una propiedad de css
+    valores posibles:
+    - block: ocupa todo el ancho de su padre o etiqueta donde se encuentren separando en otro parrafo lo que le sigue
+    - inline: ocupa el espacio que necesitan ocupar, no mas.
+    - inline-block: ocupa como inline pero se puede determinar tamaño
+
+    :hover{} cambiar cuando se pone el mouse encima
+
+
+        Box model
+    * Padding: distancia entre contendio del elemento y el border.
+    * Margin: distancia entre cajas.
+    * Border: limita borde de los elementos, util para ver hasta donde llegan.
+    * Box-sizing: border-box; ancho y alto incluyen el padding y el border.
+-->
