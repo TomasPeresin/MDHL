@@ -1,6 +1,5 @@
 body{
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 15rem;
 }
 
 #bod{
@@ -8,8 +7,11 @@ body{
 }
 
 h1{
-    margin: 0;
+    margin: 0px;
+    margin-left: 10px;
     font-weight: bold;
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.4);
 }
 
 header{
@@ -28,7 +30,7 @@ h3{
 
 .logo{
     position: absolute;
-    top: 320px;
+    top: 280px;
     left: 660px;
 }
 
@@ -44,7 +46,6 @@ nav{
     display: inline-flex;
     flex-direction: column;
     position:fixed;
-
 }
 
 a{
