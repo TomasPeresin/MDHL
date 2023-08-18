@@ -131,3 +131,42 @@ ol {
   justify-content: space-between;
   margin-right: 20px;
 }
+
+fieldset{
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+input{
+  background-color: #1e90ff;
+  color:#46143e;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+select{
+  background-color: #1e90ff;
+  color:#46143e;
+}
+
+option{
+  background-color: #1e90ff;
+  color:#46143e;
+}
+
+#form-title{
+  width: 100%;
+  font-size: 1.2rem;
+  margin-block-start: 0.3rem;
+  margin-block-end: 0.3rem;
+  font-weight: bold;
+}
+
+#form-subtitle{
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+}
