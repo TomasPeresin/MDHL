@@ -6,8 +6,9 @@
 }
 
 body {
-  padding-left: 20%;
   background-color: #46143e;
+  display: flex;
+  justify-content: center;
 }
 
 #bod {
@@ -138,6 +139,7 @@ fieldset{
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: flex-start;
+  background-color: #3b1234;
 }
 
 input{
@@ -169,4 +171,19 @@ option{
   width: 100%;
   font-size: 1rem;
   font-weight: bold;
+}
+
+iframe{
+  padding-bottom: 20px;
+}
+
+#send{
+  padding: 5px 15px;
+}
+
+@media only screen and (max-width:770px){
+  body{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 }
